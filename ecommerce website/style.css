@@ -1,0 +1,130 @@
+
+.navbar{
+    background-color: black !important;   
+}
+.navbar-brand{
+   
+    color: rgb(243, 112, 118) !important; 
+    font-size: 25px;
+    font-weight: bolder;
+}
+.navbar-toggler-icon{
+    color: azure;
+}
+.nav-link{
+    color: azure !important;
+    margin: 2px;
+    padding: 10px !important;
+}
+.dropdown-menu{
+    background-color: black !important; 
+}
+.dropdown-item{
+     
+    color: azure !important;
+    margin: 2px;
+    padding: 10px !important;
+}
+.nav-link:hover, .dropdown-item:hover{
+    background-color: rgb(78, 77, 77);
+    border-radius: 10px;
+    font-size: 18px;
+    transition: .5s;
+    
+}
+.responsive{
+    width: 90%;
+    height: 500px;
+}
+      
+  .he{
+      text-align: center;
+  }
+  marquee{
+      background-color:rgb(32, 32, 32);
+    
+      color: ghostwhite;
+    
+      padding: 25px;
+  }
+  
+  hr{
+      border-top: 1px solid black;
+      width: 400px;
+  }
+  .he h2{
+    
+    background-color: rgb(41, 40, 40);
+    color: ghostwhite;
+    padding: 30px;
+    margin: 0px 15%;
+  }
+  .col-md-3 .card{
+    margin: 8% 0%;
+   box-shadow: 1px 2px 15px gray ;
+}
+ 
+  .btn{
+      background-color: rgb(41, 40, 40);
+      border: 1px solid rgb(41, 40, 40);
+      width: 15rem;
+  }
+  .btn:hover{
+      background-color:  rgb(78, 77, 77);
+      border: 1px solid  rgb(78, 77, 77);
+  }
+  .card img:hover{
+    transform: scale(1.1);
+    transition: .5s;
+    cursor: pointer;
+  }
+  .accounts{
+    background-color: black;
+    color: rgb(143, 140, 140);
+    padding: 30px;
+  }
+  .info{
+      margin-left: 100px;
+  } 
+  .info h5{
+      text-decoration: underline;
+  }
+  .info a{
+      color: rgb(143, 140, 140);
+  }
+  .footer{
+     background-color: rgb(243, 112, 118); 
+     color: ghostwhite;
+      padding: 20px;
+      text-align: center;
+      color: g;
+  }
+
+
+  @media only screen and (max-width: 1200px) {
+      .d-block{
+          height: auto;
+      }
+      .navbar-brand{
+        font-size: 21px;
+      }
+      .responsive {
+        width: 100%;
+        height: auto;
+      }
+      .col-md-3 .card{
+          margin: 5%;
+          margin-left: auto;
+          margin-right: auto;
+      }
+     
+      .he h2{
+          font-size: 24px;
+          margin: auto;
+      }
+      .info{
+          margin-left: 0px;
+          margin-top: 8%;
+      }
+  }
+

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    input{
+      background-color: rgb(125, 125, 248);
+    }
+  </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"> <i class="fas fa-shopping-cart" style="color:rgb(243, 112, 118);"></i> Online
+          Shopping</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li>
+
+            </li>
+          </ul>
+          <span class="navbar-text">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="men.html">Men</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="women.html">Women</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Accessories
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="bags.html">Bags</a>
+                  <a class="dropdown-item" href="clutches.html">Clutch</a>
+                  <a class="dropdown-item" href="shawls.html">Shawls</a>
+                </div>
+              </li>
+              &nbsp &nbsp  &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp
+              <li class="nav-item">
+                <a class="nav-link" href="login.html"><i class="fas fa-user"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cart.html"><i class="fas fa-shopping-bag"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html"><i class="fas fa-comment-dots"></i></a>
+              </li>
+
+            </ul>
+          </span>
+        </div>
+      </nav>
+    <!-- Default form contact -->
+<form class=" border border-light p-5" action="#!">
+<div class="container" style="background-color: ghostwhite; "> 
+    <h2> Contact Us </h2>
+    <br>
+
+    <!-- Name -->
+    <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name"> <br>
+
+    <!-- Email -->
+    <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail"> <br>
+
+    <!-- Subject -->
+    <label>Subject</label>
+    <select class="browser-default custom-select mb-4">
+        <option value="" disabled>Choose option</option>
+        <option value="1" selected>Feedback</option>
+        <option value="2">Report a bug</option>
+        <option value="3">Feature request</option>
+        <option value="4">Feature request</option>
+    </select><br>
+
+    <!-- Message -->
+    <div class="form-group">
+        <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message"></textarea>
+    </div>
+    <br>
+
+    <!-- Copy -->
+    <div class="custom-control custom-checkbox mb-4">
+        <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy">
+        <label class="custom-control-label" for="defaultContactFormCopy">Send me a copy of this message</label>
+    </div>
+
+    <!-- Send button -->
+    <button class="btn btn-info btn-block" type="submit">Send</button>
+</div>
+
+</form>
+<!-- Default form contact -->
+<br>
+      <br>
+      <br>
+      <div class="accounts">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-3 acc_start">
+            <h3> <i class="fas fa-shopping-cart" style="font-size: 24px;"></i>&nbspOnline Shopping </h3>
+            &nbsp &nbsp <i class="fas fa-phone-square-alt"></i> &nbsp 033-12345678 <br>
+            &nbsp &nbsp  <i class="fas fa-envelope"></i> &nbsp onlinehoppingxyz@gmail.com <br><br>
+            <h5> Follow Us on </h5>
+            <i class="fab fa-facebook-square" style="font-size: 24px;"></i> &nbsp
+            <i class="fab fa-twitter-square" style="font-size: 24px; "></i> &nbsp
+            <i class="fab fa-instagram-square" style="font-size: 24px;"></i>  &nbsp
+            <i class="fab fa-linkedin" style="font-size: 24px;"></i>  &nbsp
+
+          </div>
+
+          <div class="col-xs-12 col-sm-12 col-md-3 info">
+            <h5> Information</h5> 
+            <a href="about.html"> About Us</a> <br>
+            <a href="#"> Our Stores</a> <br>
+            <a href="#"> Shipping Information</a>
+          </div>
+
+          <div class="col-xs-12 col-sm-12 col-md-3 info">
+          <h5> Customer Care</h5> 
+            <a href="contact.html"> Contact Us</a> <br>
+            <a href="#"> Privacy Policy</a> <br>
+            <a href="#"> Terms and Conditions</a>
+          </div>
+        </div>
+        
+      </div>
+      
+
+      <div class="footer">
+        @ Copyright Saylani Web Development Course / Assignment4
+      </div>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"></script>
+</body>
+</html>
